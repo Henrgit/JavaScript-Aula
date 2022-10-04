@@ -1,0 +1,92 @@
+function clicou(){
+    document.getElementById("agradecimento");
+    console.log(document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!");
+    //alert("Obrigado por Clicar!");
+}
+//---------------------------------------------------------
+//VALIDAÇÃO
+//function validarIdade(idade){
+//    var validar;
+//   if (idade >= 18){
+//        validar = true
+//    }else{
+//        validar = false
+//    } 
+//    return validar;
+//}
+
+//var idade = prompt( "Qual é sua idade?");
+//console.log(validarIdade(idade));
+
+//---------------------------------------------------------
+//FUNÇÃO SOMA
+//var n1 = 20
+//var n2 = 25
+
+//function soma (n1, n2) {
+//    return n1 + n2;
+//}
+
+//console.log (n1 + n2);
+//alert ( n1 + n2 );
+
+//---------------------------------------------------------
+//DATE
+//var d = new Date();
+//alert(d);
+
+//---------------------------------------------------------
+//LAÇOS DE SEQUÊNCIAS
+//var count;
+//for (count = 0; count <=10; count++){
+//    alert (count);
+//}
+
+//var count = 0;
+//while (count <= 10){
+//    console.log (count);
+//    count = count +1;
+//}
+
+//---------------------------------------------------------
+//CONDICIONAIS
+
+//var idade = prompt ("Qual sua idade?");
+//if (idade >= 18) {
+//    alert ("Maior de idade!");
+//}
+//else {alert ("Menor de idade!")
+//}
+
+//---------------------------------------------------------
+//DICIONÁRIO
+//var frutas = [{nome:"melância", cor:"verde por fora e vermelha por dentro"}, {nome:"laranja", cor:"alaranjada"}];
+//console.log (frutas);
+//console.log (frutas[1].nome);
+//console.log (frutas[1].cor);
+//alert(frutas[1].nome + frutas[1].cor);
+
+//---------------------------------------------------------
+//ARRAY & ALLERT
+
+//var lista = ["maçã" , "pêra" , 'laranja'];
+//lista.push ("uva");
+//lista.pop ();
+//console.log (lista);
+//console.log (lista.join(" - "));
+
+//var n1 = 30;
+//var n2 = 20;
+//alert ( n1 + n2 );
+
+//var n1 = 30;
+//var n2 = 20;
+
+///console.log ( n1 + n2 );
+
+//var name = ("Paulo Henrique, ");
+//var name2 = ("você é casado?");
+//var idade = 22 ;
+
+//console.log ( name + name2 );
+//console.log (idade);
